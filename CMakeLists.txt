@@ -22,4 +22,11 @@ project(
     DESCRIPTION "Reshade wrapper built for the UEE Pathfinders to enhanceReshade in Star Citizen"
 )
 
+# Import/include all project configuration helper modules.
+include(ProjectSettings)
+include(ProjectOptions)
+
+# Import/include any project-wide dependencies
+include(ProjectDependencies)
+
 # ================================================================================================ #
